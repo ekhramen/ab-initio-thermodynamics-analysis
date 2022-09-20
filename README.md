@@ -21,7 +21,7 @@ The script could be used if the following input parameters are present:
 	1. The equilibrium describes the reaction of the formation of the bimetallic species in zeolites. 
 	In our case, we have employed the following equation: 
         ``` 
-	* (2p - q + 2 - 3n - 2m)/4 (molecular_oxygen) + n(AlOH/zeol) + m(CuO) + (1 - n)/zeol -> CumAlnOpHq/zeol + (q + n -2) / 2(water)*
+	(2p - q + 2 - 3n - 2m)/4 (molecular_oxygen) + n(AlOH/zeol) + m(CuO) + (1 - n)/zeol -> CumAlnOpHq/zeol + (q + n -2)/2 (water)
         ```
         2. Make the changes to the equation in the script for calculating the Gibbs free energy formation of your structures.
 	3. Make sure that the energies of all components of the equilibrium are computed at the same level of theory and are present in the same energy units.
